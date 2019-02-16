@@ -1,0 +1,205 @@
+.col-xs-1 {
+    width: 15%;
+    float: right;
+    margin-top: 10px;
+}
+
+.col-xs-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 82%;
+    float: left;
+}
+
+
+::-webkit-scrollbar {
+    overflow: paged-x;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#roomWindow {
+    /*font-size: 25px;*/
+    /*font-family: Gadugi;*/
+
+}
+
+#title {
+    font-family: Gadugi;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-image: url("titleImage.jpg");
+}
+
+th {
+    height: 60px;
+    border: 1.5px solid blue;
+    font-size: 20px;
+    color: white;
+    width: 10.5%;
+    text-align: center;
+    background-image: url("thImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+td {
+    height: 50px;
+    border: 1.5px solid blue;
+    font-size: 18px;
+    font-weight: bold;
+    color: navy;
+    width: 10.5%;
+    text-align: center;
+    background-color: #e4edff;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border: 1.5px solid blue;
+    border-radius: 10px;
+}
+
+
+#usersOnlineTitle {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: navy;
+}
+
+.uploadFile {
+    font-size: 10px;
+    background-color: #444444;
+    color: white;
+    cursor: pointer;
+}
+
+.logoutButton {
+    cursor: pointer;
+    width: 143px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Gadugi;
+    color: white;
+    border: 3px solid white;
+    background-color: navy;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logoutButton:hover {
+    background-image: linear-gradient(deepskyblue, skyblue);
+}
+
+
+.buttonjoin:enabled, .buttonWatch:enabled {
+    width: 80%;
+    height: 70%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumblue;
+    border: aliceblue;
+    border-radius: 10px;
+}
+
+.buttonjoin:disabled {
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.buttonjoin:enabled:hover, .buttonWatch:enabled:hover{
+    background-image: linear-gradient(#5bb0ff, #bbf3ff);
+    color: navy;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+html {
+    /*background-image: url("../../indexBackground.jpg");*/
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input#xmlfile {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#uploadFileButton {
+    font-size: 16px;
+    font-family: Gadugi;
+    font-weight: bold;
+    background-color: #204d74;
+    border: aliceblue;
+    cursor: pointer;
+    width: 150px;
+    height: 38px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#uploadFileButton:hover {
+    background-image: linear-gradient(navy, deepskyblue);
+}
+
+.userOnlineName {
+    font-weight: bold;
+    font-size: 18px;
+    color: navy;
+    margin-bottom: 10px;
+    background-color: #d9edf7;
+}
+
+#userslist {
+    padding-left: 20px;
+}

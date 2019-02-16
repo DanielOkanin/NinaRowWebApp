@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="../../common/jquery-2.0.3.min.js"></script>
+    <script src="../../common/context-path-helper.js"></script>
+    <script src="lobby.js"></script>
+    <link rel="stylesheet" href="css/lobby.css">
+    <title>Lobby</title>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-xs-1">
+        <div class="sidebar">
+            <h4 id="usersOnlineTitle">Users Online</h4>
+            <div class="clearfix">
+                <div class="input">
+                    <ul id="userslist">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+            <div id="roomWindow" class="relative">
+                <h4 id="title"> Game Rooms</h4>
+                <form id="uploadFileForm" action="upload" enctype="multipart/form-data" method="POST">
+                    <input type="file" name="file"accept=".xml" id="xmlfile"><br>
+                    <input type="Submit" id="uploadFileButton" value="Upload Game File"><br>
+                </form>
+                <table id="roomstable">
+                    <thead>
+                        <tr>
+                            <th>Game Title</th>
+                            <th>Upload by</th>
+                            <th>Board size</th>
+                            <th>Target</th>
+                            <th>Variant</th>
+                            <th>Status</th>
+                            <th>Players</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody">
+                    </tbody>
+                </table>
+        </div>
+        <form action=pages/signup/signup.html">
+            <input type="button" class="logoutButton" value="Logout" onclick="window.location.href=
+            'logout'" />
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

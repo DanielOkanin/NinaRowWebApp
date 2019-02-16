@@ -1,0 +1,40 @@
+.button:hover {
+    color: black;
+    border: 3px solid white;
+    background-image: linear-gradient(#94b3ff, #f7f6ff);
+    font-size: 20px;
+    font-family: Gadugi;
+    font-weight: bold;
+}
+
+.button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Gadugi;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    background-color: #22215f;
+    border-radius: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding-top: 120px;
+    text-align: center;
+}
+
+html {
+    background-image: url("indexBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    color: mediumblue;
+}

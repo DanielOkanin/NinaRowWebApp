@@ -1,0 +1,58 @@
+.center {
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: navy;
+}
+
+input[type="radio"] {
+    margin: 5px;
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    margin-right: 20px;
+    background-color: lightcyan;
+}
+
+input[type="submit"] {
+    margin: 15px;
+    width: 140px;
+    height: 60px;
+    padding: 1px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-family: Gadugi;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    border: 3px solid white;
+    background-image: linear-gradient(#5d88f1, #c7c2f5);
+}
+
+form {
+    margin-top: 120px;
+}
+
+html {
+    background-image: url("../../indexBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagebody {
+    background-color: transparent;
+}

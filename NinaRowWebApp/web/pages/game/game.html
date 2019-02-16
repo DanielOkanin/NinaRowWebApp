@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Game</title>
+    <script src="../../common/jquery-2.0.3.min.js"></script>
+    <script src="../../common/context-path-helper.js"></script>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="css/game.css">
+
+</head>
+<body>
+<div class="row">
+    <div class="col-xs-1">
+        <div class="sidebar">
+            <p id="playersDetailstitle">Players Details</p>
+            <div id="playersDetailsList"></div>
+            <div id="watchersArea">
+                <p id="watchersTitle"></p>
+                <ul id="watchersList"></ul>
+            </div>
+            <div id="turnsHistoryDiv">
+                <p id="turnsHistoryTitle"></p>
+                <ol id="turnsHistoryList"></ol>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xs-4" id="maindiv">
+        <p id="gameTitleHeader"></p>
+        <p id="gameVariantHeader"></p>
+        <p id="gameTargetHeader"></p>
+        <p id="currentTurnKey"> Current turn: </p>
+        <p id="currentTurnValue"></p>
+        <p id="statusHeader"></p>
+        <table id="boardtable">
+            <thead id="boardhead" align="center">
+
+            </thead>
+            <tbody id="boardbody" align="center">
+
+            </tbody>
+            <tfoot id="boardfoot" align="center">
+
+            </tfoot>
+        </table>
+        <button id="retireButton" onclick="retireButtonWasClick()">Back to lobby</button>
+    </div>
+    <div id="chatDiv">
+        <div id="chatArea">
+            <p id="chatTitle"></p>
+            <form id="chatform" method="POST" action="playmove">
+                <input type="text" id="chatFormChatMessage" name="chatMessage"/>
+                <input type="text" id="chatFormGameTitle" name="gameTitle" hidden/>
+                <input type="submit" id="submitChatMessage" value="Send"/>
+            </form>
+            <ol id="chatMessagesList"></ol>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="stam">
+</div>
+</body>
+</html>

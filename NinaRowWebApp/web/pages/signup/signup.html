@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sign Up</title>
+
+        <!-- Link the Bootstrap (from twitter) CSS framework in order to use its classes-->
+        <link rel="stylesheet" href="../../common/bootstrap.min.css">
+        <link rel="stylesheet" href="signup.css">
+
+
+        <!-- Link jQuery JavaScript library in order to use the $ (jQuery) method-->
+        <script src="../../common/jquery-2.0.3.min.js"></script>
+
+        <!-- and\or any other scripts you might need to operate the JSP file behind the scene once it arrives to the client-->
+    </head>
+    <body class="pagebody">
+        <div class="center">
+            <form name="signupform" method="GET" action="login">
+                Name: &nbsp <input type="text" name="username" class=""/><br>
+                Player Type: &nbsp
+                Human <input type="radio" name="playerType" checked value="human"> &nbsp
+                Computer <input type="radio" name="playerType" value="computer"> <br>
+                <input type="submit" value="Login"/>
+            </form>
+        </div>
+    </body>
+</html>

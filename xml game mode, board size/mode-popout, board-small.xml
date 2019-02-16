@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NinaRow.xsd">
+	<GameType>DynamicMultiPlayer</GameType>
+	<Game target="3">
+		<Board rows="6" columns="7"/>
+		<Variant>Popout</Variant>
+	</Game>
+	<DynamicPlayers game-title="sample game" total-players="3"/>
+</GameDescriptor>
